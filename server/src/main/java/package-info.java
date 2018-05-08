@@ -1,4 +1,0 @@
-/** prueba*/
-
-package com.example;
-
