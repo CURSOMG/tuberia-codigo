@@ -14,7 +14,7 @@ public class Greeter {
 
   //CONJUNTO: Add javadoc comment
   /**{@inheritDoc} */
-  public String greet(final String someone) {
+  public String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
