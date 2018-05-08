@@ -1,2 +1,4 @@
-com.example
 /** prueba*/
+
+package com.example;
+
