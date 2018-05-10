@@ -10,7 +10,12 @@ pipeline {
           echo 'Guardando...'
           archiveArtifacts artifacts: '**/target/*.war'
        }
-   }
+    }
  }
- }
+    stage ('proyecto-deploy'){
+      steps {
+        build job: 'proyecto-deploy'
+      }
+    }
+  }
 }
