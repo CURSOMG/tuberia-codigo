@@ -16,7 +16,7 @@ pipeline {
     //  steps {
       //  build job: 'proyecto-deploy'
       //}
-    }
+   // }
     stage ('Paso a PRO'){
       steps{
         timeout(time:5, unit: 'DAYS'){
@@ -32,4 +32,5 @@ pipeline {
           echo 'Ha fallado el deploy.'
         }
   }
+}
 }
