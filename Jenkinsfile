@@ -5,7 +5,6 @@ pipeline {
       steps {
         bat 'mvn clean package'
       }
-    }
    post {
       success {
           echo 'Guardando...'
